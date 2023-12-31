@@ -1,4 +1,4 @@
-# NextJS and Payload Monorepo
+# StudioWavves Project Starter Template
 
 monorepo for gfx projects that includes nextjs, payload cms, storybook, and refract. built to deploy directly to Vercel. 
 
@@ -12,42 +12,3 @@ monorepo for gfx projects that includes nextjs, payload cms, storybook, and refr
 - `yarn dev` to run all apps in dev mode
 - `yarn test` to run test
 - `yarn test:coverage` to generate a new coverage report
-
-### helpful scripts
-
-- `reinstall` cleans out all `node_modules` and reinstalls all packages
-- `clean` cleans out all build/dist directories
-
-## apps
-
-### docs
-
-Storybook instance for frontend development and regression testing
-
-### web
-
-Next.js project with Payload CMS integrated
-
-## packages
-
-### eslint
-
-Linting and prettier configuration
-
-### settings
-
-Configuration files and environmental variables shared between apps
-
-### theme
-
-Theme for `web` app. Also utilized in `ui`
-
-### tsconfig
-
-Typescript configuration shared among apps and packages
-
-### ui
-
-Hooks, components, and blocks for building `web` pages
-
-
